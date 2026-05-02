@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CargoWALA– Cargo Booking</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=DM+Mono:wght@500&display=swap"
+    rel="stylesheet" />
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --moss: #636B2F;
+      --sage: #BAC095;
+      --lime: #D4DE95;
+      --deep: #3D4127;
+      --cream: #F8F9F2;
+      --white: #fff;
+      --muted: #6b7045;
+      --border: #d0d4b0;
+      --red: #e74c3c;
+      --r: 10px;
+      --r-sm: 8px;
+      --shadow: 0 4px 20px rgba(61, 65, 39, .12);
+      --shadow-lg: 0 12px 48px rgba(61, 65, 39, .2);
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--cream);
+      color: var(--deep);
+    }
+
+    #root {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* leaflet fix */
+    .leaflet-container {
+      font-family: 'DM Sans', sans-serif !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
