@@ -1,4 +1,4 @@
-# 🚚Cargo Booking
+# 🚚 HaulGo Cargo Booking
 
 HaulGo is a modern cargo and logistics booking platform designed to seamlessly connect customers with drivers. Built with a React frontend and a Node.js/Express backend powered by Supabase, the platform offers real-time order tracking, interactive maps, and dynamic vehicle management.
 
